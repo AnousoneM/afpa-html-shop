@@ -1,3 +1,61 @@
 body {
     background-color: greenyellow;
 }
+
+.jumbotron {
+    border: 1px solid black;
+
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.logo {
+    height: 10rem;
+    width: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+nav {
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    font-size: 2rem;
+    margin: 0 3rem;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    border: 1px solid black;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 2rem;
+
+    padding-left: 2.5rem;
+}
+
+.article {
+    border: 1px solid black;
+
+    width: 30vw;
+    height: 40rem;
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
