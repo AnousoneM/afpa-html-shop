@@ -1,29 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 body {
-    background-color: greenyellow;
+    background-color: #87bb34;
 }
 
-.jumbotron {
-    border: 1px solid black;
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
 
-    padding-top: 2rem;
-    text-align: center;
+/* -- JUMBOTRON */
+
+.jumbotron {
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jumbotron h1 {
+    font-size: 6rem;
+    margin: 0;
 }
 
 .logo {
+    margin: 3rem;
     height: 10rem;
     width: auto;
 }
 
 h1 {
-    color: white;
     font-size: 3rem;
 }
 
+/* -- NAV */
+
 nav {
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 
     display: flex;
     justify-content: center;
+
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 nav li {
@@ -38,24 +66,93 @@ nav a {
 }
 
 main {
-    border: 1px solid black;
-
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem 2rem;
 
-    padding-left: 2.5rem;
+    justify-content: space-evenly
 }
+
+/* --- ARTICLE */
 
 .article {
-    border: 1px solid black;
+    /* border: 1px solid #323232; */
+    border: 2px solid red;
+    border-radius: 5px;
 
-    width: 30vw;
-    height: 40rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 28%;
     background-color: white;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-footer {
+.article-name {
+    font-weight: bold;
+}
+
+.article-category {
+    margin-top: 0;
+}
+
+.article-img img {
+    width: 100%;
+    height: auto;
+}
+
+.article-avis {
+    padding-bottom: 0.5rem;
+}
+
+.article-avis i {
+    color: #ffc401
+}
+
+.article-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-bottom i {
+    margin-right: 0.5rem;
+}
+
+.article button {
+    padding: 0 1rem;
+}
+
+.article-price {
+    border: 1px solid black;
+
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: burlywood;
+    font-weight: bold;
+}
+
+/* --- FOOTER */
+
+footer {
+    background-color: red;
+    text-align: center;
+}
+
+.footer {
+    background-color: yellow;
+
+    margin-top: 2rem;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.adresse {
+    border: 1px blue solid;
 }
